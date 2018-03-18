@@ -6,7 +6,7 @@
 #   Visit: https://shadowsocks.be/6.html                          #
 #=================================================================#
 
-name=(Shadowsocks Shadowsocks-Python ShadowsocksR Shadowsocks-Go Shadowsocks-libev)
+name=(shadowsocks Shadowsocks-Python ShadowsocksR Shadowsocks-Go Shadowsocks-libev)
 path=/var/log
 [[ ! -d ${path} ]] && mkdir -p ${path}
 log=${path}/shadowsocks-crond.log
